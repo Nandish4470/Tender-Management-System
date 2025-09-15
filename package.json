@@ -1,0 +1,36 @@
+{
+  "name": "tender-management-system",
+  "version": "1.0.0",
+  "description": "Free, open-source tender management system with ML-driven insights",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "backend": "cd backend && python app.py",
+    "setup": "chmod +x setup.sh && ./setup.sh",
+    "docker:up": "docker-compose up -d",
+    "docker:down": "docker-compose down"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.1",
+    "axios": "^1.3.4",
+    "chart.js": "^4.2.1",
+    "react-chartjs-2": "^5.2.0",
+    "lucide-react": "^0.321.0",
+    "tailwindcss": "^3.2.7",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.21",
+    "date-fns": "^2.29.3",
+    "react-hot-toast": "^2.4.0",
+    "react-dropzone": "^14.2.3"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^3.1.0",
+    "vite": "^4.1.0"
+  }
+}

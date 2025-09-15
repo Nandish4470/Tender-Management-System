@@ -1,0 +1,48 @@
+.App {
+  min-height: 100vh;
+  background-color: #f8fafc;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
+
+/* Chart container */
+.chart-container {
+  position: relative;
+  height: 300px;
+  width: 100%;
+}
+
+/* File upload area */
+.file-upload-area {
+  border: 2px dashed #d1d5db;
+  border-radius: 8px;
+  padding: 2rem;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.file-upload-area:hover {
+  border-color: #3b82f6;
+  background-color: #f8fafc;
+}
+
+.file-upload-area.drag-active {
+  border-color: #3b82f6;
+  background-color: #eff6ff;
+}
